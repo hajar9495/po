@@ -1,0 +1,15 @@
+body {
+  margin: 0 -12px;
+}
+#bgImage {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-image: url("foule3.png");
+  height: 100vh;
+  width: auto;
+  /* width: 100vw; */
+  background-size: cover;
+}
+#contact {
+  background-image: url("IMG_20230503_142048.jpg");
+  background-size: cover;
+}

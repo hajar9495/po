@@ -1,0 +1,68 @@
+body {
+  margin: 0px 0px;
+}
+#monImage {
+  background-color: rgba(0, 0 0, 0.5);
+  background-image: url(asset/IMG_20220312_135745.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+#part2 {
+  width: auto;
+  margin: 0px -11px;
+  background-color: #175379;
+}
+#part3 {
+  width: auto;
+  margin: 0px -15px;
+}
+/* .mesCard:hover {
+  background-color: aquamarine;
+} */
+.myContainer {
+  position: relative;
+  width: 100%;
+}
+
+.myImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.myOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.myContainer:hover .myOverlay {
+  opacity: 1;
+}
+
+.myText {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#contact {
+  background-image: url("asset/IMG_20230503_142048.jpg");
+  background-size: cover;
+  width: 100vw;
+  /* margin: 0px -10px 0 -10px; */
+}
